@@ -375,6 +375,7 @@ body {
 
 .game-download--button {
     max-width: 24rem;
+    margin-top: 2rem;
 }
 
 .primary-btn {
@@ -384,6 +385,8 @@ body {
     text-align: center;
     background-color: var(--primary-color);
     padding: 1.2rem 2rem;
+    border-radius: .8rem;
+    transition: all .3s linear;
 }
 
 .primary-btn:hover,
@@ -413,6 +416,156 @@ body {
     letter-spacing: .5px;
     text-transform: uppercase;
     color: var(--caption-color);
+}
+
+.game-description--list li {
+    list-style: inside;
+    font-size: 1.6rem;
+    line-height: 25px;
+    letter-spacing: -.3px;
+}
+
+.game-details--plicydes {
+    max-width: 77.3rem;
+    font-size: 1.6rem;
+    line-height: 25px;
+    letter-spacing: -.3px;
+}
+
+.game-details--plicydes a {
+    color: var(--dark-color);
+}
+
+.game-details--catelists {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game-details--catelists li {
+    border: 1px solid rgba(255, 181, 37, 0.502);
+    background-color: rgba(255, 181, 37, 0.051);
+    padding: .8rem 1.6rem;
+    color: #565656;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.game-reviews--section {
+    padding-block-end: 10rem;
+}
+
+.game-reviews--stars {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-block-end: 1.6rem;
+}
+
+.game-reviews--stars li {
+    cursor: pointer;
+}
+
+.reviews-form {
+    max-width: 76.7rem;
+    margin-block-end: 1.6rem;
+}
+
+.custom-input,
+.custom-textarea,
+.reviews-btn {
+    font-family: inherit;
+    padding: 1.6rem;
+    border-radius: 1rem;
+}
+
+.custom-input,
+.custom-textarea {
+    background-color: var(--textfield-bg);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--dark-color);
+    line-height: 20px;
+}
+
+.custom-textarea {
+    height: 14.3rem;
+    resize: none;
+    margin-block-end: 1.6rem;
+}
+
+.custom-input--group {
+    max-width: 53.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.custom-input::placeholder,
+.custom-textarea::placeholder {
+    color: var(--gray-color);
+}
+
+.reviews-btn {
+    flex: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 21px;
+    background-color: rgba(245, 64, 66, 0.102);
+    border: 1px solid var(--primary-color);
+    width: 20rem;
+    padding: 1.3rem 1rem;
+    color: var(--primary-color);
+    transition: all .3s linear;
+    text-align: center;
+}
+
+.reviews-btn:hover,
+.reviews-btn:active,
+.reviews-btn:focus {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.customer-reviews--items {
+    max-width: 76.7rem;
+}
+
+.customer-reviews--item {
+    margin-block-end: 3.2rem;
+}
+
+.reviews-customer--name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--gray-color);
+    line-height: 19px;
+    text-transform: capitalize;
+    margin-block-end: .8rem;
+}
+
+.reviews-customer--star {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 0;
+    margin: 0;
+    margin-block-end: .8rem;
+}
+
+.reviews-customer--text {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 22px;
 }
 
 /* ================= Footer ================= */
