@@ -201,6 +201,7 @@ body {
 /* =============== Main =============== */
 .main {
     max-width: calc(100% - 200px);
+    min-height: 100vh;
     margin-inline-start: auto;
 }
 
@@ -566,6 +567,37 @@ body {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 22px;
+}
+
+
+/* ================= About Us ============== */
+.about-heading {
+    font-size: 3.4rem;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    line-height: 46px;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    margin-bottom: 2.4rem;
+}
+
+.about-subheading {
+    max-width: 83.2rem;
+    font-size: 2.2rem;
+    line-height: 32px;
+    font-weight: 400;
+    color: var(--dark-color);
+    letter-spacing: -.3px;
+    margin-bottom: 2.4rem;
+}
+
+.aboutus-des {
+    max-width: 83.2rem;
+    font-size: 1.6rem;
+    line-height: 25px;
+    color: var(--dark-color);
+    letter-spacing: -.3px;
+    margin-bottom: 2.4rem;
 }
 
 /* ================= Footer ================= */
