@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
-    <title>About Us</title>
+    <title>Contact us</title>
     
     <!-- Font Family CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -213,12 +213,76 @@
                     </ul>
                </nav>
 
-               <div class="about-us">
-                    <h1 class="tertiary-heading">About TopApps</h1>
-                    <p class="about-subheading">At TopApps, you can be assured that all Android games provided here are for free, full versions, legal and safe to download</p>
-                    <p class="aboutus-des">While GameTop is the place for PC games, TopApps is fully dedicated towards Android games. Given the reputation of GameTop, we are able to license many games for free that you may have to pay for via other sources</p>
-                    <p class="aboutus-des">Do not be surprised to see your favorite games for free here! We are going to have a vast collection of games for all categories be it Puzzle, Hidden Object, Racing or more!</p>
-                    <p class="aboutus-des">So check back often to see the new games that we license every now and then.</p>
+               <div class="contactus-headingbox">
+                    <h1 class="tertiary-heading contact-heading">Contact us</h1>
+               </div>
+               <div class="row gx-5">
+                    <div class="col-12 col-md-4 mb-5 mb-md-0">
+                        <p class="contactus-des">If you have any problem with any our game, business offer, suggestion or any other question please feel free to contact us using this form.</p>
+                       <div class="contact-address">
+                            <h2 class="primary-heading contact-address--heading">Our mailing address</h2>
+                            <ul class="contact-address--items">
+                                <li>Gametop Pte. Ltd.</li>
+                                <li>#04-08, 15 Scotts Road</li>
+                                <li>Singapore</li>
+                                <li>228218</li>
+                            </ul>
+                       </div>
+                    </div>
+                    <div class="col-0 col-md-1"></div>
+                    <div class="col-12 col-md-7">
+                        <form class="contactus-form" action="#">
+                            <div class="contact-form--groups">
+                                <p class="contact-field--label">Select Subject:</p>
+                                <div class="radio-button--group">
+                                    <div class="radio-item">
+                                        <input class="contactus-radio--btn" type="radio" id="problem-game" name="Subject" checked>
+                                        <label class="radio-label" for="problem-game">Problem with a Game</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input class="contactus-radio--btn" type="radio" id="publish-game" name="Subject">
+                                        <label class="radio-label" for="publish-game">Publish your game</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input class="contactus-radio--btn" type="radio" id="business-offer" name="Subject">
+                                        <label class="radio-label" for="business-offer">Business Offer</label>
+                                    </div>
+                                    <div class="radio-item">
+                                        <input class="contactus-radio--btn" type="radio" id="other" name="Subject">
+                                        <label class="radio-label" for="other">Other</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-form--groups">
+                                <label class="contact-field--label" for="yourName">Your name</label>
+                                <input class="contact-input--field form-control" type="text" id="yourName" placeholder="Your name">
+                            </div>
+
+                            <div class="contact-form--groups">
+                                <label class="contact-field--label" for="yourmail">Your email</label>
+                                <input class="contact-input--field form-control" type="email" id="yourmail" placeholder="example@gmail.com">
+                            </div>
+
+                            <div class="contact-form--groups">
+                                <label class="contact-field--label" for="dropdonw-text">Label</label>
+                                <select class="contact-input--field form-select form-select-lg" id="dropdonw-text"> 
+                                    <option value="Dropdonw text" selected>Dropdonw text</option>
+                                    <option value="Dropdonw text1">Dropdonw text1</option>
+                                    <option value="Dropdonw text2"> Dropdonw text2</option>
+                                    <option value="Dropdonw text3">Dropdonw text3</option>
+                                    <option value="Dropdonw text4">Dropdonw text4</option>
+                                </select>
+                            </div>
+                            <div class="contact-form--groups">
+                                <label class="contact-field--label" for="contact-text">Your Message</label>
+                                <textarea class="contact-textarea--field form-control" name="contact-text" id="contact-text" placeholder="Describe the problem in brief"></textarea>
+                            </div>
+                            <div class="contactus-button">
+                                <button class="btn primary-btn" type="submit">Send email</button>
+                            </div>
+                        </form>
+                    </div>
                </div>
             </div>
         </section>
