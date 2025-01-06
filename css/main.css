@@ -64,7 +64,7 @@ body {
 }
 
 .asid-container {
-    padding: 20px 0px 20px 20px;
+    padding: 2rem 0px 2rem 2rem;
 }
 
 .brand {
@@ -194,6 +194,7 @@ body {
     transition: color .3s linear;
 }
 
+.nav-footer--link.active,
 .nav-footer--link:hover {
     color: var(--primary-color);
 }
@@ -258,6 +259,23 @@ body {
 
 .search-icon:hover svg {
     stroke: var(--gray-color);
+}
+
+
+.home-game--cate {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+}
+
+.game-cate--item {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.game-cate--img {
+    width: 100%;
+    height: auto;
 }
 
 .game-cards {
@@ -966,4 +984,87 @@ body {
 
 .footer-link:hover {
     color: var(--hover-color);
+}
+
+
+/* ====================================
+Responsive 
+======================================= */
+
+@media only screen and (max-width: 1300px) {
+    .game-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 996px) {
+    .game-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .aside {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .asid-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.1rem 3rem;
+    }
+
+    .nav-content {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 80px;
+        margin-block-start: 0rem;
+        background-color: var(--white-color);
+        z-index: 9999;
+        padding: 2rem;
+    }
+
+    .nav-heading {
+        font-size: 1.6rem;
+        margin-block-end: 2rem;
+    }
+
+    .nav-item:not(:last-child) {
+        margin-block-end: 3rem;
+    }
+
+    .nav-link {
+        gap: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-item--allcategory:not(:last-child) {
+        margin-block-end: 3rem;
+    }
+
+    .nav-footer--link {
+        font-size: 2rem;
+    }
+
+    .nav-footer--item:not(:last-child) {
+        margin-block-end: 2rem;
+    }
+
+    .main {
+        max-width: 100%;
+    }
+
+
+    /* .home-game--cate {
+        grid-template-columns: repeat(2, 1fr);
+    } */
+
+    .footer {
+        max-width: 100%;
+    }
 }

@@ -29,7 +29,7 @@
                         <h6 class="nav-heading">menu</h6>
                         <ul class="main-menu--items">
                             <li class="nav-item">
-                                <a href="/" class="nav-link"> 
+                                <a href="/" class="nav-link active"> 
                                     <span class="nav-link--icon">
                                         <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M3.504 16H1.75C1.336 16 1 15.664 1 15.25V13.496C1 12.515 1.578 11.619 2.473 11.214C2.848 11.043 3.294 11.21 3.465 11.588C3.636 11.965 3.468 12.41 3.091 12.58C2.732 12.743 2.5 13.102 2.5 13.496V14.5H3.504C3.898 14.5 4.257 14.268 4.42 13.909C4.59 13.532 5.036 13.365 5.412 13.535C5.789 13.706 5.957 14.15 5.786 14.527C5.381 15.422 4.485 16 3.504 16Z"/>
@@ -188,12 +188,28 @@
                     </ul>
                 </nav>
             </div>
+
+            <div class="d-lg-block">
+                <button class="mobile-nav--open btn">
+                    <svg width="36" height="22" viewBox="0 0 36 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="2" fill="#1E1D22"/>
+                        <rect y="10" width="36" height="2" fill="#1E1D22"/>
+                        <rect y="20" width="36" height="2" fill="#1E1D22"/>
+                    </svg>
+                </button>
+                <button class="mobile-nav--close btn d-none">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="7" y="32.0208" width="36" height="2" transform="rotate(-45 7 32.0208)" fill="#1E1D22"/>
+                        <rect width="36" height="2" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 33.8701 32.0208)" fill="#1E1D22"/>
+                    </svg>                        
+                </button>
+            </div>
         </div>
     </aside>
     
     <main class="main">
         <div class="top-search pt-4 pb-5">
-            <div class="container-fluid px-4">
+            <div class="container-fluid px-5 px-md-4">
                 <form class="search-form" action="#">
                     <input id="search-game" class="custom-searchfield form-control" type="search" placeholder=" Search game...">
                     <button type="submit" class="search-icon btn">
@@ -205,8 +221,23 @@
                 </form>
             </div>
         </div>
+        <div class="home-top--section mb-5 d-none">
+            <div class="container-fluid px-5 px-md-4">
+                <div class="home-game--cate">
+                    <div class="game-cate--item">
+                        <img class="game-cate--img" src="images/TopGames.png" alt="Top Game">
+                    </div>
+                    <div class="game-cate--item">
+                        <img class="game-cate--img" src="images/BestGames.png" alt="Best Game">
+                    </div>
+                    <div class="game-cate--item">
+                        <img class="game-cate--img" src="images/NewGames.png" alt="New Game">
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="newgame-section mb-5">
-            <div class="container-fluid px-4">
+            <div class="container-fluid px-5 px-md-4">
                 <h1 class="primary-heading mb-5">New Games</h1>
                 <div class="game-cards">
                     <!-- New Game Card 01 -->
@@ -363,7 +394,7 @@
             </div>
         </section>
         <section class="bestgame-section mb-5">
-            <div class="container-fluid px-4">
+            <div class="container-fluid px-5 px-md-4">
                 <h1 class="primary-heading mb-5">Best Games</h1>
                 <div class="game-cards">
                     <!-- Best Game Card 01 -->
@@ -520,7 +551,7 @@
             </div>
         </section>
         <section class="populargame-section mb-5">
-            <div class="container-fluid px-4">
+            <div class="container-fluid px-5 px-md-4">
                 <h1 class="primary-heading mb-5">Popular Games</h1>
                 <div class="game-cards">
                     <!-- New Game Card 01 -->
@@ -678,7 +709,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container-fluid px-4">
+        <div class="container-fluid px-5 px-md-4">
             <div class="footer-topcontent">
                 <ul class="footer-topitems">
                     <li class="footer-listtext">TopApps - Download Free Android Games and Apps</li>
