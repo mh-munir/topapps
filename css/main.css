@@ -1027,6 +1027,7 @@ Responsive
         background-color: var(--white-color);
         z-index: 9999;
         padding: 2rem;
+        transform: translateX(100%);
     }
 
     .nav-heading {
@@ -1056,7 +1057,9 @@ Responsive
     }
 
     .main {
+        width: 100%;
         max-width: 100%;
+        padding-block-start: 1rem;
     }
 
 
